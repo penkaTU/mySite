@@ -1,0 +1,27 @@
+.section_main{
+	background-image: url("https://lifehacker.ru/wp-content/uploads/2016/07/kompukter_1467625860.jpg");
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+.section_main_text{
+	font-size: 50px;
+	color: white;
+	font-weight: 800;
+}
+.section_main_text2{
+	font-size: 30px;
+	color: white;
+	font-weight: 800;
+}
+.section{
+	width: 100%;
+	height: 1300px;
+	
+}

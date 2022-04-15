@@ -1,0 +1,33 @@
+.header-page{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.header-page__container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-page__ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.header-page__text:hover{
+	color: #0164d8;
+	transition: 0.4s;
+}
+.header-page__text{
+	position: relative;
+	color: white;
+	margin-right: 50px;
+}
+#last{
+	margin-right: 15px;
+}
+

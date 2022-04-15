@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:300&display=swap&subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+<link rel="stylesheet" type="text/css" href="css/components.css">
+<link rel="stylesheet" type="text/css" href="css/section-top.css">
+<link rel="stylesheet" type="text/css" href="css/section-about.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:300&display=swap&subset=cyrillic" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/section-works.css">
+<link rel="stylesheet" type="text/css" href="css/footer.css">
+<title>Визитка</title>
+</head>
+<body>
+
+
+<!--header page-->
+<header class="header-page">
+		<div class="header-page__container container">
+			<div class="header-page__start">
+				<div class="header-page__logo">
+					<img src="img/header/logo.png" width="50px" height="50px">
+				</div>
+			</div>
+
+			<div class="header-page__end">
+				<nav class="header-page__nav">
+					<ul class="header-page__ul">
+						<li class="header-page__li">
+							<span class="header-page__text"><a href="#about-me"> Про мене</a></span>
+						</li>
+						<li class="header-page__li">
+							<span class="header-page__text"><a href="#portfolio"> Портфоліо</a></span>
+						</li>
+						<li class="header-page__li">
+							<span class="header-page__text" id="last"><a href="#contacts"> Контакти</a></span>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+</header>
+
+<!--section top-->
+<section class="section-top">
+	<div class="container section-top__container">
+		<h1>Всім привіт, мене звати Едуард</h1>
+		<h2>і я веб-розробник</h2>
+		<div>
+			<img class="section-top__laptop" src="img/sections/top/laptop.png">
+		</div>
+	</div>
+</section>
+
+<!--section about-->
+<section class="container section-about">
+	<div class="section-about__head">
+		<h1 id="about-me">Про мене</h1>
+	</div>
+
+	<div class="section-about__text">
+		<h4><img id="my_photo" class="section-about__text2" src="https://funart.pro/uploads/posts/2021-04/thumbs/1618553103_55-funart_pro-p-oboi-fon-sploshnoi-chernii-tsvet-63.jpg" width="430px" height="600px" align="left">Я Куруляк Едуард.</h4>
+		<p>Я спеціалізуюсь на створенні сайтів.</p>
+		<p>В моєму портфоліо є декілька сайтів,які я сам розробив і вам може сподобається. Моя сильна сторона - наполегливість і терпіння.</p>
+		<p>Дуже добре знайомий з Adobe Photoshop </p>
+		<p>Зможу реалізувати верстку.</p>
+		<p>Працюю з редактором - Sublime Text 3</p>
+		<div class="section-about__btn">
+			<button class="btn_" type="button"><a href="#contacts"> Зв'язатися зі мною</a></button>
+		</div>
+		
+	</div>		
+</section>
+
+<!--section works-->
+<section class="container section-works">
+	<header class="section-works__head">
+		<h1 id="portfolio">Портфоліо</h1>
+	</header>
+	<div class="catalog">
+		<div class="catalog__item">
+			<div class="work__item">
+				<a target="_blank" href="http://kubikpizza.byethost18.com/"><img class="work_" src="img/sections/works/kubik.png" width="330" height="425"></a>
+				<div class="work__about">
+					<p>Сайт піцерії,який був зроблений заради підвищення навичків.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!--footer-->
+<footer class="footer">
+  <div class="container footer-container">
+    <!--sender-->
+    <div class="wrapper">
+    	<div class="form">
+    		<form method="POST" class="form_body" id="form" action="sendmail.php">
+    			<h1 class="txt" id="contacts">Готові обсудити проект?</h1>
+    			<h1 style="font-size: 20px; color: white; font-weight: 200" >Залиште заявку і я зв'яжуся з вами найближчим часом </h1>	
+    			<div class="form__item">
+    				<input type="text" id="formName" name="name" class="form__input _req" placeholder="Введіть ім`я">
+    			</div>
+    			<div class="form__item">
+    				<input type="text" id="formEmail" name="email" class="form__input _req _email" placeholder="Введіть електронну скриньку">
+    			</div>
+    			<div class="form__item">
+    				<textarea name="message" id="formMessage" class="form__input2 _req" placeholder="Введіть повідомлення"></textarea>
+    			</div> 
+    			<button type="submit" class="form__button">Обсудити проект</button>
+    		</form>
+    	</div>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </div>
+</footer>
+	
+
+
+<!--PHP-->
+
+
+</body>
+</html>
